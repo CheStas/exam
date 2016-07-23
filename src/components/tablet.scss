@@ -1,0 +1,78 @@
+@import "desktop";
+
+.container {
+    width: 763px;
+}
+
+header {
+    .container {
+        width: 670px;
+        padding: 38px 0 235px;
+    }
+
+    .button {
+        min-width: 224px;
+    }
+}
+
+.instruction {
+    padding: 0;
+    .flexslider {
+
+    }
+
+    &__step {
+        padding: 20px 18px 18px;
+    }
+}
+
+.partners {
+    width: 510px;
+    margin: 0 auto
+;
+    .title {
+        margin-top: 88px;
+    }
+
+    .partner {
+        flex: 1 50%;
+        margin-bottom: 57px;
+    }
+
+    .partner--2,
+    .partner--4 {
+        margin-bottom: 29px;
+    }
+}
+
+.ideas {
+    .grid {
+        width: 746px;
+        margin: 0 auto;
+    }
+
+    .grid-item {
+        width: 235px;
+        height: 310px;
+    }
+
+    .grid-item--width2 {
+        width: 490px;
+    }
+}
+
+.search {
+    padding: 0 0 97px;
+
+    .title {
+        margin-top: 74px;
+    }
+}
+
+footer {
+    padding: 34px 5%;
+
+    .designed {
+        margin-left: 8%;
+    }
+}
